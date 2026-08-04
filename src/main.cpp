@@ -3,10 +3,10 @@
 #include <Adafruit_BME280.h>
 
 // ESP32 <-> BME280 SPI wiring
-constexpr uint8_t PIN_BME_CS = 10;
-constexpr uint8_t PIN_BME_MOSI = 11;
-constexpr uint8_t PIN_BME_SCK = 12;
-constexpr uint8_t PIN_BME_MISO = 13;
+constexpr uint8_t PIN_BME_CS = 15;
+constexpr uint8_t PIN_BME_MOSI = 13;
+constexpr uint8_t PIN_BME_SCK = 14;
+constexpr uint8_t PIN_BME_MISO = 12;
 
 // Conservative bus rate for initial bring-up; can be increased after validation.
 constexpr uint32_t BME_SPI_HZ = 1000000;
