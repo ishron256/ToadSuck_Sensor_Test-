@@ -1,2 +1,2 @@
-# ToadSuck_Sensor_Test-
+# ToadSuck_Sensor_Test
 Sensor Test for Toadsuck
